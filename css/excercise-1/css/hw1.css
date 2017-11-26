@@ -1,0 +1,27 @@
+h1{
+    font-size: 200%;
+    font-variant: small-caps;
+    text-align: center;
+    color: #ffffff;
+}
+header{
+    background: #6b6b6b;
+}
+a{
+    color: #000000;
+    background-color: #dfd9d9
+}
+a:hover{
+    color: #ffffff;
+}
+h2{
+    font-size: 200%;
+    font-variant: small-caps;
+    color: #1c0080;
+}
+section{
+    background: #555555;
+}
+aside{
+        display: none
+}
