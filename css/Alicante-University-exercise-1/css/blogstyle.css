@@ -26,9 +26,8 @@ ul{
 }
 
 section{    
-    width: 50%;        
-    padding-block-start: 15px;
-    -webkit-padding-start: 15px;    
+    width: 50%;  
+    padding: 0px 0px 0px 10px;           
     float: left;    
 }
 
