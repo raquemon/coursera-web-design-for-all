@@ -47,7 +47,7 @@ section{
 
 footer{
     width: 45%;     
-    float: left;
+    clear: both;
     padding: 50px;
     text-align: right;
 }
