@@ -70,9 +70,9 @@ footer{
        padding:.75em;
     }  
 
-    h1::after{
+    /*h1::after{
         content: "(I guess??)";
-    }
+    }*/
   
     header{
         background-color: rgba(0, 0, 255, 0);
@@ -85,7 +85,7 @@ footer{
     }
     
 }
-@media print{
+/*@media print{
     body, header, footer{
         background-color: #ffffff;
     }
@@ -112,4 +112,4 @@ footer{
         column-count: 1;
         
     }
-}
+}*/
