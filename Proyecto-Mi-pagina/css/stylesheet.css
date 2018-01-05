@@ -1,10 +1,78 @@
+p{
+    display: inline-block;
+    width: 90%;
+    font-size: 1.1em;
+    margin: 1em 1em 0em 3em;
+    text-align: justify;
+    padding-bottom: 1em;
+    text-indent: 50px;
+}
+img{
+    float: left;
+    width: 20%;
+    display: none;
+    margin: 1em 1em 0em 3em;
+}
 header{
     margin: auto;
     text-align: center;
 }
+.navbar{
+    border: 0px;
+    
+}
+.bg-light{
+    background-color: #ffffff!important;
+}
+
 .logo{
     width: 40%;
+    display: block;
+    margin-left: 33.4%;
+    
 }
 .jumbotron{
-    padding: 1%;
+    padding: 0.5%;
+    background-color: #ffffff;
+    margin: 0em;    
+}
+.cita{
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+h1, h2{
+    display: block;
+    margin: 0.5em 1em 1em 1em;
+    text-align: center;
+    
+}
+.date{
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 0.8em;
+}
+section{
+    margin: 1em;
+    border-bottom: 1px #00000056 solid;
+}
+footer p{
+    display: block;
+    text-align: center;
+    
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 900px){
+    img{
+        display: inline-block;
+    }
+    .navbar{
+        border-top: 1px solid #00000056;
+        border-bottom: 1px solid #00000056;
+        padding: .25rem 1rem;
+    }
+    
 }
