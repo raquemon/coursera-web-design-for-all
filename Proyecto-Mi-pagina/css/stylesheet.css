@@ -65,7 +65,7 @@ footer p{
     font-size: 0.8em;
     text-transform: uppercase;
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 992px){
     img{
         display: inline-block;
     }
