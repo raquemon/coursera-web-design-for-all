@@ -85,6 +85,17 @@ footer p{
 .container{
     max-width: 100%;
 }
+.ssmall{
+    padding: 0em;
+} 
+.csmall{
+    padding: 0em;
+}
+.indexh1{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #000000;
+}
 
 @media screen and (min-width: 992px){
     
@@ -101,9 +112,11 @@ footer p{
    }
    .container{
         max-width: 1200px;
-
+        
     }
-       
+    .ssmall{
+        padding: 1em;
+    }  
        
 }
 @media screen and (min-width: 768px){
@@ -124,7 +137,8 @@ footer p{
         display: block;
     }
    
-    
+
+     
 }
 @media screen and (min-width: 576px){
     
