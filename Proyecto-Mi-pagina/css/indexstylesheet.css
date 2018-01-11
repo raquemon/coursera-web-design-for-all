@@ -99,6 +99,20 @@ footer p{
 .paddingh2{
     padding-bottom: 1em;
 }
+.book{
+    width: 11em;
+    height: 17.5em;
+    
+}
+.imgcenter{
+    margin: auto;
+}
+.topmargin{
+    margin: 1em;
+}
+.noborder{
+    border: 0px;
+}
 
 @media screen and (min-width: 992px){
     
