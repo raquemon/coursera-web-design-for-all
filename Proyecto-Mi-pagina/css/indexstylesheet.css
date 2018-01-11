@@ -104,6 +104,10 @@ footer p{
     height: 17.5em;
     
 }
+.bookfile{
+    width: 100%;
+    
+}
 .imgcenter{
     margin: auto;
 }
@@ -112,6 +116,9 @@ footer p{
 }
 .noborder{
     border: 0px;
+}
+.h1books{
+    margin-bottom: 1em;
 }
 
 @media screen and (min-width: 992px){
