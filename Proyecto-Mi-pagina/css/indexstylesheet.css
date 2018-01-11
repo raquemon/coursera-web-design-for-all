@@ -96,6 +96,9 @@ footer p{
     text-decoration: none;
     color: #000000;
 }
+.paddingh2{
+    padding-bottom: 1em;
+}
 
 @media screen and (min-width: 992px){
     
