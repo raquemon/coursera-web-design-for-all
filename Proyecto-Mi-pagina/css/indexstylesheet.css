@@ -70,6 +70,8 @@ section{
     margin: 1em;
     
 }
+
+
 footer p{
     display: block;
     text-align: center;
@@ -89,7 +91,7 @@ footer p{
     font-size: 0.8em;
     margin-top: 2em;
 }
-.container{
+.indexcontainer{
     max-width: 100%;
 }
 .ssmall{
@@ -128,31 +130,66 @@ footer p{
 .h1books{
     margin-bottom: 1em;
 }
+.biophoto{
+    border-radius: 50%;
+    padding-top: 3em;
+    display:none;
+}
+.pbiophoto{
+    margin: auto;
+    width: 30%;
+    border-radius: 50%;
+    padding-top: 0em;
+    display:block;
+}
 
-@media screen and (min-width: 992px){
+
+.messagebox{
+    line-height: 6em;
+    text-align: left;
+     
+}
+.imgtable{
+    width: 97%;    
+    position: absolute;
+    height: 130%;
+}
+
+
+.imgcellphone{
+    width: 98%;
+    height: auto;
+    position: absolute;
+}
+.formposition{
+    position: relative;
+    padding-bottom: 1em;
+    flex-basis: 100%
+}
+
+
+.divposition{
+    position: absolute;
     
-    
-    .navbar{
-        border-top: 1px solid #00000056;
-        border-bottom: 1px solid #00000056;
-        padding: .25rem 1rem;
-    }
-  
-   .principal{
-       width: 70%;
-       display: block;
-   }
-   .container{
-        max-width: 1200px;
-        
-    }
-    .ssmall{
-        padding: 1em;
-    }
-    .sectionpadding{
-        padding-left: 6em;
-        padding-right: 6em;
-    }  
+}
+.formbg{
+    margin-left: 3%;
+    width: 90%;
+    margin-top: 15%;
+    padding: 4.3em;
+}
+#contactbackground{
+    background-image: url(../imagenes/hoja.jpg); 
+    background-position: center;
+}
+.sectioncontact{
+   
+    height: 150vh;
+  }
+
+
+@media screen and (min-width: 576px){
+   
     
 }
 @media screen and (min-width: 768px){
@@ -177,9 +214,85 @@ footer p{
         
     }  
     
-     
+    .biophoto{
+        border-radius: 50%;
+        padding-top: 3em;
+        display:block;
+    }
+    .pbiophoto{
+        
+        display:none;
+    }
+    .formbg{
+        margin-left: 10%;
+        width: 80%;
+      
+    }
 }
-@media screen and (min-width: 576px){
+
+@media screen and (min-width: 992px){
     
+    
+    .navbar{
+        border-top: 1px solid #00000056;
+        border-bottom: 1px solid #00000056;
+        padding: .25rem 1rem;
+    }
+  
+   .principal{
+       width: 70%;
+       display: block;
+   }
+   .indexcontainer{
+        max-width: 1200px;
+        
+    }
+    .ssmall{
+        padding: 1em;
+    }
+    .sectionpadding{
+        padding-left: 6em;
+        padding-right: 6em;
+    }  
+    
+    
+    .messagebox{
+        line-height: 5em;
+        text-align: left;
+         
+    }
+    
+    .imgsheet{
+        width: 50%;
+    }
+    .imgcellphone{
+        width: 98%;
+        height: auto;
+    }
+    .formposition{
+        position: relative;
+        padding-bottom: 1em;
+    }
+    contactcontainer{
+        width: 90%;
+        margin: auto;
+    }
+   
+    .formbg{
+        margin-left: 13.5%;
+        width: 73%;
+        margin-top: 17%;
+    }
+    .imgtable{        
+        height: 140%;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .formbg{
+        margin-left: 19.5%;
+        width: 60%;
+    }
     
 }

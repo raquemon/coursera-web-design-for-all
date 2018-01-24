@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <!-- <link rel="stylesheet" type="text/css" href="css/stylesheet.css"> -->
     <link rel="stylesheet" type="text/css" href="css/indexstylesheet.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-    <title>Noticias</title>
+   
+    <title>Contacto</title>
 </head>
 <body>
     <header class="jumbotron">
@@ -26,11 +28,11 @@
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item "><a class="nav-link" href="Index.html">INICIO</a></li>
                         <li class="nav-item"><a class="nav-link" href="Books.html">LIBROS</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="News.html">NOTICIAS</a></li>
+                        <li class="nav-item "><a class="nav-link" href="News.html">NOTICIAS</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">RELATOS</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">RESEÑAS</a></li>
                         <li class="nav-item"><a class="nav-link" href="Biography.html">BIOGRAFÍA</a></li> 
-                        <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>  
+                        <li class="nav-item active"><a class="nav-link" href="#">CONTACTO</a></li>  
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -38,29 +40,41 @@
                 </form>
         </div>
     </nav>
-    <section class="sectionpadding">
-        <div>
-            <p>
-                <a href="News.html">Volver atrás</a>  
-            </p>
-        </div>
-        <p class="date">2 enero 2018</p>
-        <h1 class="center">Nuevo lanzamiento de Meiga Ediciones</h1>
-        <h2 class="center paddingh2">El Rito de María Belén Montoro un thriller que no puedes perderte</h2>
-        <p class="paragraph">
-            <img class="inewimg" src="imagenes/ELRitoPromo.jpg" alt="Promocion El Rito">
-             Ediciones Meiga nos sorprende empezando el año con este lanzamiento. El rito, la nueva novela de María Belén Montoro que verá la luz el día 15 de enero, promete ser uno de esos thrillers que provocan que no puedas dejar de leer hasta conocer toda la verdad. ¿Queréis saber más de ella? Aquí os dejo la sinopsis para que vayáis abriendo boca 😉<br>
-              <br>  
-            <strong class="center">Sinopsis</strong><br>
-               <br>     
-            <em>En un emblemático parque de la ciudad de Blackpool en Reino Unido, ha aparecido el cuerpo sin vida de Amy Martin. Apuñalada, desangrada y con inquietantes marcas en el cuerpo, la muchacha ha dejado sus memorias inmortalizadas en un blog.<br><br>                   
-            Blackpool, una ciudad anclada en el olvido, la llamada “Atlantic City” de las islas británicas, se encuentra ente el reflejo de su propia degeneración. Los gloriosos años de playa e iluminaciones nocturnas, de casinos y turismo internacional se han convertido en un agujero de dramas sociales. Dramas como el de Amy.<br>
-            El agente Mathew Stewart, al borde de la jubilación y hastiado de su propia vida, se encuentra al mando de una investigación que llevará a la superficie la realidad más sucia y bochornosa procedente de las entrañas de la ciudad de las aguas negras.<br><br></em>
-                    
-            La novela cuenta con 286 páginas y el precio será de 16€. ¿No estáis deseando leerlo ya?
-        </p>
-    </section>
-    <footer>
+    <div>
+        <section class="sectioncontact">
+            <img src="imagenes/mesa.jpg" alt="Fondo de mesa" class="imgcenter imgtable">
+            <div class="divposition formbg" id="contactbackground">
+                
+                <form class="form-horizontal center formcenter">
+                    <div class="form-row">                
+                        <div class="form-group formposition">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Escribe tu e-mail">
+                            <small id="emailHelp" class="form-text text-muted">Nunca compartiremos sus datos con terceros.</small>
+                        </div>
+                        <div class="form-group formposition">
+                            <label for="exampleInputPassword1">Nombre</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+                        </div>
+                        <div class="form-group formposition"> 
+                                <label for="exampleInputPassword1">Asunto</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Asunto">
+                        </div>
+                        <div class="form-group formposition"> 
+                            <label for="comment">Mensaje</label>
+                            <input id="msg" type="text" class="form-control messagebox" name="msg" placeholder="Escribe aquí tu mensaje">
+                            
+                        </div>
+                        <div class="form-group formposition">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <img src="imagenes/telefonoyboli.png" alt="Hoja de papel" class="imgcenter imgcellphone">
+        </section>
+    </div>    
+    <footer >
         <p>Todos los derechos reservados&copy;Raquel Montiel Núñez 2018</p>
     </footer>
 </body>
