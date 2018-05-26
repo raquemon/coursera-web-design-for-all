@@ -186,6 +186,9 @@ footer p{
    
     height: 150vh;
   }
+.downloadimg{
+    width: 5em;
+}  
 
 
 @media screen and (min-width: 576px){
